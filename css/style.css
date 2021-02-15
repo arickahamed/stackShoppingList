@@ -111,5 +111,55 @@ p {
     border: none;
     outline: none;
     font-size: 1rem;
-    color: #666666;
+    color: var(--font-color-secondary);
+}
+
+/* Table Section */
+.table{
+    margin-top: 1rem;
+}
+
+.table__table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    text-align: left;
+}
+
+.table-thead{
+    color: var(--font-color-secondary);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.table th{
+    padding: 1.5rem 1.2rem;
+    width: 25%;
+    max-width: 25%;
+}
+
+.icon-button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    width: 1.75rem;
+    height: 1.75rem;
+}
+
+.icon-button__icon{
+    width: 100%;
+    height: auto;
+}
+
+/* utilities */
+.align-right{
+    text-align: right;
+}
+
+.table .custom-th{
+    padding-left: 7rem;
+}
+
+.text-secondary{
+    color: var(--font-color-secondary);
 }
